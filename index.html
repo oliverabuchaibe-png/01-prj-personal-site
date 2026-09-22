@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oliver Abuchaibe | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome icons (LevelUp: Icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
-  <!-- Add your HTML content here -->
+
+  <!-- Navigation bar (LevelUp: Navigation) -->
+  <header class="navbar">
+    <div class="nav-content">
+      <a href="#home" class="logo">Oliver Abuchaibe</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Oliver Abuchaibe</h1>
+      <p class="tagline">Real Estate &amp; Entrepreneurship student building my web development skills</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </section>
+
+  <!-- About / Bio section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm a Business Administration student at American University, concentrating in Real Estate
+      &amp; Entrepreneurship, expected to graduate in May 2027. I'm currently a Real Estate Finance
+      &amp; Development Intern at Habitat Group in Miami, where I work on financial modeling,
+      underwriting, and an investor-facing web platform. I studied abroad at The Chinese University
+      of Hong Kong, and I'm fluent in both English and Spanish. This site is where I'm documenting
+      what I build as I learn web development.
+    </p>
+  </section>
+
+  <!-- Skills section (icons via Font Awesome) -->
+  <section id="skills" class="section skills-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Financial Modeling</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-building"></i>
+        <h3>Real Estate Underwriting</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>HTML &amp; CSS</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-file-excel"></i>
+        <h3>Excel &amp; Data Analysis</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-language"></i>
+        <h3>Bilingual (EN/ES)</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-people-group"></i>
+        <h3>Client &amp; Partner Relations</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Investor Platform Support</h3>
+        <p>Contributed financial modeling and content for Habitat Group's investor-facing web
+          platform during my internship in Real Estate Finance &amp; Development.</p>
+      </div>
+      <div class="project-card">
+        <h3>Student Housing Venture Concept</h3>
+        <p>Developing a business plan and market strategy for a student-housing rental portfolio,
+          combining underwriting with hands-on real estate analysis.</p>
+      </div>
+      <div class="project-card">
+        <h3>This Portfolio Website</h3>
+        <p>Built with HTML, CSS, and AI-assisted prompting as part of my Web Development Career
+          Accelerator project — replace this card with your next project as you build it!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="section contact-section">
+    <h2>Contact</h2>
+    <p>Interested in connecting? Reach out below.</p>
+    <ul class="contact-links">
+      <li><i class="fa-solid fa-envelope"></i> <a href="mailto:oliverabuchaibe@gmail.com">oliverabuchaibe@gmail.com</a></li>
+      <li><i class="fa-brands fa-linkedin"></i> <a href="#" target="_blank">LinkedIn (add your link)</a></li>
+      <li><i class="fa-brands fa-github"></i> <a href="#" target="_blank">GitHub (add your link)</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Oliver Abuchaibe. Built with HTML, CSS, and AI assistance.</p>
+  </footer>
+
 </body>
 </html>
